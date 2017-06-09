@@ -9,7 +9,7 @@ public class DataBaseClass {
 private static List<Party> parties= new ArrayList<Party>();
 
 public static List<Party> getParties() {
-	return parties
+	return parties;
 }
 
 public static void setParties(List<Party> profiles) {
