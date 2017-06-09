@@ -5,15 +5,8 @@ import java.util.List;
 
 import com.ofss.fin.entity.Party;
 
-public class DataBaseClass {
-private static List<Party> parties= new ArrayList<Party>();
+public class DataBaseTest {
+int i=10;
 
-public static List<Party> getParties() {
-	return parties;
-}
-
-public static void setParties(List<Party> profiles) {
-	DataBaseClass.parties = profiles;
-}
 
 }
