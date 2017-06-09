@@ -22,6 +22,12 @@
 <!--     </dependency> -->
     <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-moxy -->
 <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+    <scope>provided</scope>
+</dependency>
+	<dependency>
     <groupId>org.glassfish.jersey.media</groupId>
     <artifactId>jersey-media-moxy</artifactId>
     <version>2.6</version>
